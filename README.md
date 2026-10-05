@@ -64,5 +64,8 @@
 - Figma 파일: https://www.figma.com/design/Varn690zxB345cnz9fgytO (정지영/디지털미디어디자인전공의 팀, "당근 리디자인 디자인 시스템")
 - 변수 컬렉션: `Color` 48개(색), `Size` 16개(글자 크기 7, 간격 2, 모서리 7). 이름과 값은 `tokens/tokens.css`와 같습니다.
 - 컴포넌트 7개: `Chip/Recommended`, `Keypad/Default`, `Keypad/Pressed`, `PriceCard`, `Checkbox/Off`, `Checkbox/On`, `Toast`. 색과 크기는 변수에 연결했습니다.
-- 아직 없는 것: 그림자(효과 스타일), 한글 글꼴(Noto Sans KR) 변수. 현재 글자는 Inter로 만들어졌습니다.
+- 페이지 구성: `Cover`(구성과 사용 규칙), `Components`(부품 7개, 섹션으로 묶고 각 설명에 쓰는 변수 기록), `Foundations`(색 48, 글자 7, 모서리 7, 간격 2, 그림자 7 견본)
+- 변수: `Color` 48, `Size` 16, `Typography` 1(`font/body` = Noto Sans KR). 그림자는 효과 스타일 7개.
+- 배포본과 대조해 고친 값: 추천 칩 모서리 8px, 토스트 배경 90% 투명과 Medium, 키패드 흰색 배경과 122x48, 체크박스 테두리 1px
+- 알려진 차이: Figma에 SemiBold(600)가 없어 600 굵기는 Bold로 씁니다. 그림자는 부품에 아직 연결하지 않았습니다. 가격 카드의 내용과 크기는 배포본과 달라서 값만 대조했습니다.
 
