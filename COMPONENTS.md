@@ -1,8 +1,8 @@
 # 컴포넌트
 
-Figma 파일의 `Components` 페이지와 같은 이름을 씁니다. 각 부품은 배포본(`prototype/index.html`)의 실제 요소를 측정해서 옮겼고, 쓰는 토큰은 `tokens/tokens.css`의 이름입니다.
+각 부품은 배포본(`prototype/index.html`)의 실제 요소를 측정해서 옮겼고, 쓰는 토큰은 `tokens/tokens.css`의 이름입니다.
 
-| Figma 이름 | 배포본 요소 | 상태 |
+| 부품 | 배포본 요소 | 상태 |
 |---|---|---|
 | `Chip` | 제안 칩 (`.preset-chip`, 추천 항목) | 단일 |
 | `Keypad` | 키패드 숫자 (`.keypad-btn`) | `State=Default`, `State=Pressed` |
@@ -48,7 +48,7 @@ Figma 파일의 `Components` 페이지와 같은 이름을 씁니다. 각 부품
 
 ## 배포본에만 있는 부품
 
-다음 부품은 Figma 세트로 만들지 않았고, 프로토타입 코드에만 있습니다.
+다음 부품은 프로토타입 코드에만 있습니다.
 - 뒤로가기 칩 (`#backToProposalChip`, `.dg-back-chip`): 배경 `--surface-glass`, 글자 `--daangn-gray800`, `--type-caption`, 모서리 `--radius-full`
 - 설명 모달 (`#infoModal`): 뒤 막 `--scrim-40`
 - 완료 팝업 (`#doneOverlay`): 뒤 막 `--scrim-50`, 확인 아이콘 배경 `--daangn-light`, 체크 색 `--daangn`
