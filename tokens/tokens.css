@@ -71,6 +71,12 @@
   --type-tiny: 10px;
   --type-small: 11px;
   --type-caption: 12px;
+  --type-sm: 14px;
+  --type-body: 16px;
+  --type-lg: 18px;
+  --type-xl: 20px;
+  --type-2xl: 24px;
+  --type-3xl: 30px;
 
   /* 보류 항목 (이름 확정) */
   --neutral-press: #DDE2E5;
