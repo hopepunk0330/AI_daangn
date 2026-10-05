@@ -20,6 +20,7 @@
 ## 가격 입력 카드 (`#priceDisplayBox`)
 
 - 판매 희망 가격을 보여주는 큰 카드
+- 그림자: `--shadow-sm` (Figma `shadow/sm`)
 - 테두리: 기본 `--daangn`(2px). 주황 테두리가 카드의 기준 색입니다.
 - AI 최적 단위 배지: 배경 `--orange-50`, 글자 `--daangn`, 테두리 `--orange-200`
 - 모서리: 큰 반경(`rounded-2xl`)
@@ -34,6 +35,7 @@
 ## 토스트 (`#toastNotification`)
 
 - 짧은 알림. 화면 위쪽에 잠깐 나타납니다.
+- 그림자: `--shadow-lg` (Figma `shadow/lg`)
 - 배경: `--neutral-900`(90% 투명), 글자색 `--neutral-white`
 - 글자: `--type-caption`(12px), 굵기 500
 - 모서리: `--radius-2xl`(16px)
