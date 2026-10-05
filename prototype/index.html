@@ -24,6 +24,8 @@
       theme: {
         extend: {
           colors: {
+            white: 'rgb(var(--neutral-white-rgb) / <alpha-value>)',
+            black: 'rgb(var(--neutral-black-rgb) / <alpha-value>)',
             daangn: {
               DEFAULT: 'var(--daangn)',
               hover: 'var(--daangn-hover)',
@@ -36,21 +38,31 @@
               gray600: 'var(--daangn-gray600)',
               gray800: 'var(--daangn-gray800)',
               purple: 'var(--daangn-purple)',
-              purpleLight: 'var(--daangn-purple-light)'
-            }
+              purpleLight: 'var(--daangn-purple-light)',
+              'tint-50': 'var(--daangn-tint-50)',
+              'tint-100': 'var(--daangn-tint-100)',
+              'tint-200': 'var(--daangn-tint-200)'
+            },
+            gray: {
+              50: 'rgb(var(--neutral-50-rgb) / <alpha-value>)', 100: 'rgb(var(--neutral-100-rgb) / <alpha-value>)', 200: 'rgb(var(--neutral-200-rgb) / <alpha-value>)', 300: 'rgb(var(--neutral-300-rgb) / <alpha-value>)', 400: 'rgb(var(--neutral-400-rgb) / <alpha-value>)', 500: 'rgb(var(--neutral-500-rgb) / <alpha-value>)',
+              600: 'rgb(var(--neutral-600-rgb) / <alpha-value>)', 700: 'rgb(var(--neutral-700-rgb) / <alpha-value>)', 800: 'rgb(var(--neutral-800-rgb) / <alpha-value>)', 900: 'rgb(var(--neutral-900-rgb) / <alpha-value>)', 950: 'rgb(var(--neutral-950-rgb) / <alpha-value>)'
+            },
+            orange: { 50: 'rgb(var(--orange-50-rgb) / <alpha-value>)', 100: 'rgb(var(--orange-100-rgb) / <alpha-value>)', 200: 'rgb(var(--orange-200-rgb) / <alpha-value>)', 400: 'rgb(var(--orange-400-rgb) / <alpha-value>)', 500: 'rgb(var(--orange-500-rgb) / <alpha-value>)', 600: 'rgb(var(--orange-600-rgb) / <alpha-value>)', 700: 'rgb(var(--orange-700-rgb) / <alpha-value>)' },
+            purple: { 50: 'rgb(var(--purple-50-rgb) / <alpha-value>)', 100: 'rgb(var(--purple-100-rgb) / <alpha-value>)', 300: 'rgb(var(--purple-300-rgb) / <alpha-value>)' },
+            blue: { 100: 'rgb(var(--blue-100-rgb) / <alpha-value>)', 600: 'rgb(var(--blue-600-rgb) / <alpha-value>)' }
           },
           fontFamily: {
             sans: ['Noto Sans KR', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'sans-serif'],
           },
           boxShadow: {
-            'phone': '0 25px 60px -15px rgba(0, 0, 0, 0.22), 0 0 0 12px #262626',
-            'float': '0 8px 30px rgba(255, 111, 15, 0.25)',
-            'key': '0 1px 2px rgba(0,0,0,0.18)'
+            'phone': 'var(--shadow-phone)',
+            'float': 'var(--shadow-float)',
+            'key': 'var(--shadow-key)'
           }
         }
       }
     }
-</script>
+    </script>
 <link rel="stylesheet" href="../tokens/tokens.css">
 <style>
     * {
@@ -169,8 +181,8 @@
 <style>
   :root{
     --ff-body:'Noto Sans KR',-apple-system,sans-serif;
-    --dg-mute:#8a8f98;
-    --dg-badge-dark:#1f2937;
+    --dg-mute:var(--daangn-mute);
+    --dg-badge-dark:var(--neutral-800);
   }
   html,body{
     margin:0;padding:0;height:100%;
@@ -496,7 +508,7 @@
             </div>
             <div class="dg-real">
 <!-- ⭐ HERO REDESIGN: 당근 AI 추천 단위가 & 범위가 종합 카드 -->
-        <section class="bg-gradient-to-b from-[#FFF9F5] to-[#FFF4ED] border border-[#FFE2D1] rounded-3xl p-4 shadow-sm relative overflow-hidden">
+        <section class="bg-gradient-to-b from-daangn-tint-50 to-daangn-tint-100 border border-daangn-tint-200 rounded-3xl p-4 shadow-sm relative overflow-hidden">
           
           <!-- Subtle decorative background blob -->
           <div class="absolute -right-6 -top-6 w-28 h-28 bg-orange-200/40 rounded-full blur-2xl pointer-events-none"></div>

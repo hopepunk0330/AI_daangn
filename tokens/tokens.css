@@ -35,6 +35,26 @@
   --neutral-white: #FFFFFF;
   --neutral-black: #000;
 
+  /* Tailwind 기본 팔레트에서 쓰는 값 */
+  --neutral-50: #F9FAFB;
+  --neutral-100: #F3F4F6;
+  --neutral-400: #9CA3AF;
+  --neutral-600: #4B5563;
+  --neutral-700: #374151;
+  --neutral-950: #030712;
+  --orange-50: #FFF7ED;
+  --orange-100: #FFEDD5;
+  --orange-200: #FED7AA;
+  --orange-400: #FB923C;
+  --orange-500: #F97316;
+  --orange-600: #EA580C;
+  --orange-700: #C2410C;
+  --purple-50: #FAF5FF;
+  --purple-100: #F3E8FF;
+  --purple-300: #D8B4FE;
+  --blue-100: #DBEAFE;
+  --blue-600: #2563EB;
+
   /* 강조 글자 / 표면 / 막 */
   --daangn-ink: #1A1005;
   --surface-glass: rgba(255, 255, 255, 0.92);
@@ -77,4 +97,49 @@
   --shadow-2: 0 12px 26px -10px rgba(0, 0, 0, 0.5);
   --shadow-3: 0 -10px 24px -16px rgba(15, 15, 20, 0.22);
   --shadow-4: 0 1px 0 rgba(0, 0, 0, 0.3);
+
+  /* RGB 채널 (투명도 지원용, 위 HEX 값에서 자동 생성) */
+  --daangn-rgb: 255 111 15;
+  --daangn-hover-rgb: 232 94 0;
+  --daangn-light-rgb: 255 242 232;
+  --daangn-surface-rgb: 255 248 244;
+  --daangn-tint-50-rgb: 255 249 245;
+  --daangn-tint-100-rgb: 255 244 237;
+  --daangn-tint-200-rgb: 255 226 209;
+  --daangn-gray50-rgb: 247 248 249;
+  --daangn-gray100-rgb: 241 243 245;
+  --daangn-gray200-rgb: 233 236 239;
+  --daangn-gray400-rgb: 134 142 150;
+  --daangn-gray600-rgb: 73 80 87;
+  --daangn-gray800-rgb: 33 37 41;
+  --daangn-mute-rgb: 138 143 152;
+  --daangn-purple-rgb: 108 92 231;
+  --daangn-purple-light-rgb: 243 240 255;
+  --neutral-200-rgb: 229 231 235;
+  --neutral-300-rgb: 209 213 219;
+  --neutral-500-rgb: 107 114 128;
+  --neutral-800-rgb: 31 41 55;
+  --neutral-900-rgb: 17 24 39;
+  --neutral-white-rgb: 255 255 255;
+  --neutral-black-rgb: 0 0 0;
+  --neutral-50-rgb: 249 250 251;
+  --neutral-100-rgb: 243 244 246;
+  --neutral-400-rgb: 156 163 175;
+  --neutral-600-rgb: 75 85 99;
+  --neutral-700-rgb: 55 65 81;
+  --neutral-950-rgb: 3 7 18;
+  --orange-50-rgb: 255 247 237;
+  --orange-100-rgb: 255 237 213;
+  --orange-200-rgb: 254 215 170;
+  --orange-400-rgb: 251 146 60;
+  --orange-500-rgb: 249 115 22;
+  --orange-600-rgb: 234 88 12;
+  --orange-700-rgb: 194 65 12;
+  --purple-50-rgb: 250 245 255;
+  --purple-100-rgb: 243 232 255;
+  --purple-300-rgb: 216 180 254;
+  --blue-100-rgb: 219 234 254;
+  --blue-600-rgb: 37 99 235;
+  --daangn-ink-rgb: 26 16 5;
+  --neutral-press-rgb: 221 226 229;
 }
